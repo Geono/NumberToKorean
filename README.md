@@ -6,7 +6,7 @@ It converts numbers to Korean. I wrote this package because I needed it. Feel fr
 
 ## Install
 
-npm install --save number-to-korean
+```npm install --save number-to-korean```
 
 ## Usage
 
