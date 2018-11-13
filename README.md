@@ -19,7 +19,7 @@ const str = numberToKorean(a);
 console.log(str) // 백2십3
 ```
 
-## Examples
+## Conversion Examples
 
 * 1 -> '1'
 * 21 -> '2십1'
