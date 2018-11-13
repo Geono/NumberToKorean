@@ -1,0 +1,29 @@
+{
+  "name": "number-to-korean",
+  "version": "1.0.0",
+  "description": "Changes number to Korean - 숫자를 한글로 바꿔줍니다",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geono/NumberToKorean.git"
+  },
+  "keywords": [
+    "number",
+    "korean",
+    "숫자",
+    "한글"
+  ],
+  "author": "Kunho Kim",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Geono/NumberToKorean/issues"
+  },
+  "homepage": "https://github.com/Geono/NumberToKorean#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^23.6.0"
+  }
+}
