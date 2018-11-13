@@ -1,15 +1,23 @@
 # NumberToKorean
 
-It converts numbers to Korean. 
+It converts numbers to Korean. I wrote this package because I needed it. Feel free to suggest anything.
 
-숫자를 한글로 바꿔줍니다.
+숫자를 한글로 바꿔줍니다. 이런 기능을 하는 패키지가 필요했는데 없길래 간단하게 만들어봤습니다. 건의사항이나 이슈는 언제든지 환영합니다.
 
-이런 기능을 하는 패키지가 필요했는데 없길래 간단하게 만들어봤습니다. 건의사항이나 이슈는 언제든지 환영합니다.
+## Install
 
-I wrote this package because I needed it. Feel free to suggest any kinds of issues.
+npm install --save number-to-korean
 
 ## Usage
 
+```
+- Let's say you're using es6.
+
+const { numberToKorean } = require('number-to-korean')
+const a = 123;
+const str = numberToKorean(a);
+console.log(str) // 백2십3
+```
 
 ## Examples
 
